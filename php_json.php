@@ -13,14 +13,16 @@ $project_link = $data['project']['link'];
 
     # // DATOS FB
 $project_social_fb = $data['social']['fb']['page_name'];
-$project_social_fb = $data['social']['fb']['page_link'];
+$project_social_fb_link = $data['social']['fb']['page_link'];
 
     # // DATOS IG
 $project_social_ig = $data['social']['ig']['page_name'];
-$project_social_ig = $data['social']['ig']['page_link'];
+$project_social_ig_link = $data['social']['ig']['page_link'];
 
     # // DATOS YT
 $project_social_yt = $data['social']['yt']['page_name'];
-$project_social_yt = $data['social']['yt']['page_link'];
+$project_social_yt_link = $data['social']['yt']['page_link'];
 
-echo $project_name;
+echo $project_name . "<br />";
+echo $project_social_ig . "<br />";
+echo $project_social_ig_link;
